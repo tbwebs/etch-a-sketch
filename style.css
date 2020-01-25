@@ -1,6 +1,26 @@
+body{
+    font-family: cursive;
+    background-color: turquoise;
+}
+
 #etchasketch{
+    box-sizing: border-box;
+    border: solid black;
+    width: 600px;
+    height: 600px;
     display: grid;
-    grid-template-columns: repeat(16, 25px);
-    grid-gap: 1px;
-    grid-template-rows: repeat(16, 25px);
+    margin: auto;
+    padding: 0;
+}
+.grid{
+    border: lightgray solid 0.5px;
+    background-color: white;
+}
+h1{
+    text-align: center;
+    margin: 10px;
+}
+#buttonwrapper{
+    text-align: center;
+    margin: 10px;
 }
